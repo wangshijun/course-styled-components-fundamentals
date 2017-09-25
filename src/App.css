@@ -1,8 +1,30 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.contact {
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  background-color: green;
+  color: white;
+}
+
+.contact--female {
+  background-color: tomato;
+}
+
+.contact__name {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.contact__intro {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.contact__intro strong {
+  font-weight: 600;
 }
