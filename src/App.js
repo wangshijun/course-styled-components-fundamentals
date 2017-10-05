@@ -20,16 +20,25 @@ class App extends Component {
 
   renderContact(contact) {
     return (
-      <div className={`contact contact--${contact.gender}`}>
+      <Contact gender={contact.gender}>
         <ContactName>{contact.name}</ContactName>
         <ContactIntro>
           {contact.name} is a <strong>{contact.age} years</strong> old
           <strong> {contact.introduction}</strong>
         </ContactIntro>
-      </div>
+      </Contact>
     );
   }
 }
+
+const Contact = styled.div`
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  background-color: ${props => (props.gender === 'female' ? 'tomato' : 'green')};
+  color: white;
+`;
 
 const ContactName = styled.h2`
   font-size: 20px;
