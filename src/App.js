@@ -19,25 +19,36 @@ class App extends Component {
   }
 
   renderContact(contact) {
+    const ContactComponent = contact.gender === 'female'
+      ? ContactFemale
+      : ContactMale;
+
     return (
-      <Contact gender={contact.gender}>
+      <ContactComponent>
         <ContactName>{contact.name}</ContactName>
         <ContactIntro>
           {contact.name} is a <strong>{contact.age} years</strong> old
           <strong> {contact.introduction}</strong>
         </ContactIntro>
-      </Contact>
+      </ContactComponent>
     );
   }
 }
 
 const Contact = styled.div`
-  border: 1px solid #DEDEDE;
+  border: 2px solid black;
   border-radius: 5px;
   padding: 15px;
   margin: 15px;
-  background-color: ${props => (props.gender === 'female' ? 'tomato' : 'green')};
   color: white;
+`;
+
+const ContactMale = Contact.extend`
+  background-color: green;
+`;
+
+const ContactFemale = Contact.extend`
+  background-color: tomato;
 `;
 
 const ContactName = styled.h2`

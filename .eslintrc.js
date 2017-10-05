@@ -21,6 +21,7 @@ module.exports = {
     'arrow-parens': 'off',
     'consistent-return': 'off',
     'no-mixed-operators': 'off',
+    'no-use-before-define': 'off',
     'max-len': ['warn', 120],
     'no-param-reassign': ['error', { props: false }],
     camelcase: 'off',
