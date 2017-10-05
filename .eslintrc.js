@@ -22,6 +22,7 @@ module.exports = {
     'consistent-return': 'off',
     'no-mixed-operators': 'off',
     'no-use-before-define': 'off',
+    'no-unused-expressions': 'off',
     'max-len': ['warn', 120],
     'no-param-reassign': ['error', { props: false }],
     camelcase: 'off',
