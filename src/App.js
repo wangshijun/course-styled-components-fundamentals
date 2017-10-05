@@ -16,7 +16,8 @@ class App extends Component {
           <div className={`contact contact--${contact.gender}`}>
             <h2 className="contact__name">{contact.name}</h2>
             <p className="contact__intro">
-              {contact.name} is a <strong>{contact.age} years</strong> old <strong>{contact.introduction}</strong>
+              {contact.name} is a <strong>{contact.age} years</strong> old
+              <strong>{contact.introduction}</strong>
             </p>
           </div>
         ))}
