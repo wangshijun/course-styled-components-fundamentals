@@ -30,7 +30,7 @@ const ContactMale = Contact.extend`
 `;
 
 const ContactFemale = Contact.extend`
-  background-color: tomato;
+  background-color: ${props => props.theme.primary};
 `;
 
 const ContactName = styled.h2`

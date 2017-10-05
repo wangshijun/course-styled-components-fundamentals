@@ -7,7 +7,7 @@ const Button = styled.div`
   padding: 5px 10px;
   margin: 15px;
   color: white;
-  background: tomato;
+  background: ${props => props.theme.primary};
 `;
 
 export default Button;
