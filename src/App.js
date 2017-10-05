@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Contact from './components/Contact';
+import Button from './components/Button';
 
 const contacts = [
   { name: 'Lucy', gender: 'male', age: 30, introduction: 'developer' },
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         {contacts.map(contact => <Contact contact={contact} />)}
+        <Button>Click me!</Button>
       </div>
     );
   }
