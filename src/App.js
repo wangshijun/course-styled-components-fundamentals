@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import './App.css';
 
 const contacts = [
@@ -20,14 +21,27 @@ class App extends Component {
   renderContact(contact) {
     return (
       <div className={`contact contact--${contact.gender}`}>
-        <h2 className="contact__name">{contact.name}</h2>
-        <p className="contact__intro">
+        <ContactName>{contact.name}</ContactName>
+        <ContactIntro>
           {contact.name} is a <strong>{contact.age} years</strong> old
           <strong> {contact.introduction}</strong>
-        </p>
+        </ContactIntro>
       </div>
     );
   }
 }
+
+const ContactName = styled.h2`
+  font-size: 20px;
+  margin-top: 0;
+`;
+
+const ContactIntro = styled.p`
+  font-size: 16px;
+  margin-bottom: 0;
+  strong {
+    font-weight: 600;
+  }
+`;
 
 export default App;
