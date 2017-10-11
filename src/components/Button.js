@@ -13,7 +13,7 @@ const Button = styled.div`
   margin: 15px;
   color: white;
   background: ${props => props.theme.primary};
-  animation: ${spin} 1s linear infinite;
+  // animation: ${spin} 1s linear infinite;
 `;
 
 export default Button;
