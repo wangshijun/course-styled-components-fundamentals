@@ -1,16 +1,17 @@
-# 组件化时代必杀技：`styled-components` 入门
+# 组件化必杀技：`styled-components` 简明教程
 
 ## 课程介绍
 
 通过将 ES6 中的模板字符串（`template literals`）特性创造性的运用到 CSS 编码上，`styled-components` 成了前端社区现象级的 `CSS-IN-JS` 解决方案，能让我们在不用担心样式和组件之间如何关联的情况下用 CSS 书写组件，让样式组件真正成为开发的基本单元。
-那么，如何在 `React/React Native` 项目中使用 `styled-components`？如何改造现有项目？如何提高代码复用度和适应变化的能力？本视频教程将为你打开 `styled-components` 的大门，通过短短的 18 分钟让你熟知 `styled-components` 的主要特性，视频演示用的源码将会放在 Github 上供你调试。
+
+那么，如何在 `React/React Native` 项目中使用 `styled-components`？如何改造现有项目？如何提高代码复用度和适应变化的能力？**共 8 小节，23 分钟**，本视频教程将为你打开 `styled-components` 的大门，让你熟知 `styled-components` 的主要特性，视频演示用的源码将会放在 Github 上供你调试。
 
 ## 适用人群
 
-* [required]具备前端基础知识，了解 ES6；
-* [required]具备 React 基础知识，有开发经验更好；
-* [optional]期望跟上社区发展动态，学习最新的开发技术，如果满足这点，前两点可忽略；
-* [optional]具备 React Native 基础知识，有开发经验的更好；
+* [必须]具备前端基础知识，了解 ES6；
+* [必须]具备 React 基础知识，有开发经验更好；
+* [可选]期望跟上社区发展动态，学习最新的开发技术，如果满足这点，前两点可忽略；
+* [可选]具备 React Native 基础知识，有开发经验的更好；
 
 ## 内容目录
 
