@@ -84,3 +84,10 @@ yarn start
 ## 参考资料
 
 * [styled-components docs](https://www.styled-components.com/docs)
+
+## 视频地址
+
+关注《前端周刊》微信公众号，回复 `course-styled-components` 后获取高清视频教程下载地址。
+
+![cover.png](./cover.png)
+
