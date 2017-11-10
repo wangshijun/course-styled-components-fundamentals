@@ -19,33 +19,49 @@
 
 实例演示使用 `styled-components` 编写 `React` 组件基本步骤和语法，把要基于 `classNames` 才能实现的样式关联去掉，用纯 CSS 的方式去书写 `React` 组件。
 
+[![](./assets/01-replace-basic-presentation-components.png)](https://v.qq.com/iframe/player.html?vid=o1327y4isjw&width=660&height=371.25&auto=0)
+
 ### 2. 用 `props` 调整组件样式，真正发挥 `JS` 的威力
 
 使用 `styled-components` 编写组件的时候，可以在模板字符串中传入函数，或者表达式，这样就可以根据传给组件的 props 来调整组件的样式，让你真正体会到 `CSS-IN-JS` 的乐趣和威力。
+
+[![](./assets/02-adapting-style-using-props.png)](https://v.qq.com/iframe/player.html?vid=h13274ia83v&width=660&height=371.25&auto=0)
 
 ### 3. 用 `attrs` 封装组件属性，提高代码复用
 
 年年岁岁花相似，岁岁年年人不同，编写代码同样会有这样的问题，使用 `attrs` 机制不仅让我们在组件中封装样式，也能封装属性，极大的提高代码复用。
 
+[![](./assets/03-acheive-code-reuse-with-additional-props.png)](https://v.qq.com/iframe/player.html?vid=c13275ibr7i&width=660&height=371.25&auto=0)
+
 ### 4. 用 `extend` 创建组件变种，实现样式继承
 
 用 `JS` 书写样式就失去了继承的能力？使用 `styled-components` 提供的 `extend` 机制，让我们找回这种能力，单重继承？多重继承？随你所需。
+
+[![](./assets/04-using-extend-to-reuse-style.png)](https://v.qq.com/iframe/player.html?vid=d1327mc5tb4&width=660&height=371.25&auto=0)
 
 ### 5. 用 `injectGlobal` 设置全局样式
 
 组件化之后怎么设置 `body` 样式？因为 `body` 是无论如何不能被写成一个组件的，好在 `styled-components` 给我们提供了 `injectGlobal` 辅助函数来设置页面的全局样式。
 
+[![](./assets/05-use-injectglobal-for-global-styling.png)](https://v.qq.com/iframe/player.html?vid=s1327kq80qu&width=660&height=371.25&auto=0)
+
 ### 6. 用 `ThemeProvider` 实现主题功能
 
 把应用中常用的字体、颜色、尺寸集中起来管理能极大提高代码适应变化的能力，这种功能或设计可以常被称为"主题"（亦可称皮肤）的"作用"，实例演示 `styled-components` 的主题机制。
+
+[![](./assets/06-using-theme-provider-for-config.png)](https://v.qq.com/iframe/player.html?vid=o1327ra0tf1&width=660&height=371.25&auto=0)
 
 ### 7. 用 `keyframes` 实现界面动画
 
 恰到好处的动画能让用户对你的应用爱不释手，`styled-components` 提供的 `keyframes` 辅助函数能够让我们很容易的把 `CSS` 里面的动画迁移到组件中。
 
+[![](./assets/07-using-keyframes-for-animation.png)](https://v.qq.com/iframe/player.html?vid=x13273bxic5&width=660&height=371.25&auto=0)
+
 ### 8. 在 `React Native` 中使用 `styled-components`
 
 `styled-components` 也为 `React Native` 提供了很好的支持，哪些地方是完全相同的？哪些地方需要你注意？本节视频为你解惑。
+
+[![](./assets/08-using-styled-components-in-react-native.png)](https://v.qq.com/iframe/player.html?vid=i1327nx3fco&width=660&height=371.25&auto=0)
 
 ## 源码链接
 
@@ -89,5 +105,5 @@ yarn start
 
 关注《前端周刊》微信公众号，回复 `course-styled-components` 后获取高清视频教程下载地址。
 
-![cover.png](./cover.png)
+![cover.png](./assets/cover.png)
 
